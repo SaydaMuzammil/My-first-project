@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Demo Form</title>
+
+</head>
+<body>
+	<a href="blog.html"> Go to blog</a>
+	<!-- heading -->
+	<h1>Simple form</h1>
+
+	<!-- form -->
+	<form action="process.php" method="POST">
+		<div>
+			<label>First Name</label>
+			<input type="text" name="firstName"
+			placeholder="Enter your first name">
+		</div>
+		<br>
+		<div>
+			<label>Last Name</label>
+			<input type="text" name="lastName" placeholder="Enter your last name">
+		</div>
+		<br>
+		<div>
+			<label>Email</label>
+			<input type="email" name="lastName"
+			placeholder="Enter your Email">
+		</div>
+		<br>
+		<div>
+			<label>Message</label>
+			<textarea name= "message"
+			placeholder="Write your message here"></textarea>
+		</div>
+		<br>
+		<div>
+			<label>Gender</label>
+			<select name = "gender">
+			<option value="male">Male</option>
+			<option value="female">Female</option>
+			<option value="other">Other</option>
+			</select>
+		</div>
+		<br>
+		<div>
+			<label>Age</label>
+			<input type= "number" name="age" value="30"></input>
+		</div>
+		<br>
+		<div>
+			<label>Birthday</label>
+			<input type= "date" name="birthday"></input>
+			<br>
+			<input type="submit" name="submit" value="Submit">
+		</div>
+
+		</form>
+		<!--button-->
+		<button>Click Me</button> 
+       <br>
+       <!-- Image-->
+       <a href="images/thankyou.jpg">
+       <img src="images/thankyou.jpg" alt="Thank you" width="200">
+   </a>
+
+</body>
+</html>
